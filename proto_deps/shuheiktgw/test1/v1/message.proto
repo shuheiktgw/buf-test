@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package shuheiktgw.test1.v1;
+
+
+import "google/rpc/code.proto";
+
+message Message {
+  google.rpc.Code code = 1;
+}

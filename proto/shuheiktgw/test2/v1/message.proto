@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package shuheiktgw.test2.v1;
+
+import "shuheiktgw/test1/v1/message.proto";
+
+message Message {
+  shuheiktgw.test1.v1.Message message = 1;
+}

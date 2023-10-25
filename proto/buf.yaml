@@ -1,0 +1,8 @@
+version: v1
+name: buf.build/shuheiktgw/test2
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT
